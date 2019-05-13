@@ -1,1 +1,3 @@
-let qwe = 1;
+module.exports = {
+qwe: 1
+};
