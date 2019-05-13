@@ -1,1 +1,1 @@
-export let qwe = 1;
+let qwe = 1;
