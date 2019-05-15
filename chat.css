@@ -1,0 +1,105 @@
+* {
+	padding: 0;
+	margin : 0;
+}
+#cont {
+	opacity: 0.8;
+	background: url(https://static.tildacdn.com/tild3835-3333-4263-b633-323061326533/Project-Hope-Exchang.jpg);
+	background-size: cover;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+#cont > div {
+	width: 50%;
+}
+#chat {
+	border-radius: 35px;
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid grey;
+	background: white;
+}	
+#vvod{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#vivod{
+	width: 100%;
+	height: 400px;
+}
+#inp {
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+#inp > input{
+	width: 212px;
+	height: 50px;
+	font-size: 30px;
+	background: black;
+	color: white;
+	border-radius: 10px;
+}	
+#area {
+font-family: 'Montserrat', sans-serif;
+border-radius: 10px;
+margin-left: 25px;
+overflow: auto;
+padding: 10px;
+border: 2px solid grey;
+background: black;
+width: 426px;
+height: 353px;
+}
+#dj1, #dj2{
+	top: 20px;
+	transition: all 2.8s ease-in-out;
+	position: absolute;
+	height: 300px;
+}
+#dj1 {
+	left: 50px;
+}
+#dj2 {
+	left: 400px;
+	transform:scale(-1, 1); 
+}
+
+.bot {
+		color: #05F931FF;
+}
+.hum {
+	color: white;
+}
+.test{
+	opacity: 0;
+}
+#countdown {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	position: absolute;
+	color:red;
+	border: 1px solid black;
+}
+#canvas {
+	pointer-events: none;
+	z-index: 99;
+	cursor: crosshair;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
