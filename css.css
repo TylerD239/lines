@@ -1,0 +1,197 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+*::selection {
+    /*background-color:Transparent;*/
+    color:#000;
+    }
+
+#input::selection {
+	color : #DFDE1FFF;
+}
+#input{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	width: 160px;
+/*	margin: 0 auto;
+	display: block;*/
+
+}
+
+
+#input+span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+
+}
+#par,#hand {
+
+	/*width: 100%;*/
+	display: inline-block;
+		/*margin: 0 auto;*/
+}
+#out {
+font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+}
+.nums {
+	color: red;
+}
+#bot {
+	height: 600px;
+}
+#top {
+	line-height: 100px;
+	height: 300px;
+	text-align: center;
+	border-bottom: 2px solid #DBDBDBFF
+	}
+
+/*#bot{
+		text-align: center;
+}*/
+
+#res {
+	color:#A6588CFF;
+}
+#refr {
+	transition: all 2.4s;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	left: 15px;
+	width: 32px;
+	height: 32px;
+	background-image: url("https://img.icons8.com/nolan/32/000000/connection-sync.png")
+}
+
+#refr:hover {
+		transform: rotate(1360deg)
+}
+#refr:active {
+	background-size: 90%;
+}
+#mid{
+	left : 50%;
+	margin-top: -1px;
+	margin-left: -150px;
+	position: absolute;
+	border-radius: 0 0 30px 30px;
+	border-bottom: 1px solid #DBDBDBFF;
+/*	border-right:  1px solid #DBDBDBFF;
+	border-left:  1px solid #DBDBDBFF;*/
+	width: 300px;
+/*	height: 30px;*/
+	transition: height .6s  ;
+		text-align: center;
+}
+#img{ 
+	user-select: none;
+	pointer-events: none;
+	transition: height .6s ease-in-out,transform 0.2s ease-in-out ;
+		/*transition: transform 0.1s ease-in-out ;*/
+	}
+/*#img:hover{
+ 	transform: rotate(360deg);
+
+height : 32px;
+	}*/
+.on {
+
+	height: 30px;
+}
+.off {
+	height: 0px;
+}
+#mid:active {
+	background: #EDEDED8C
+}
+#mid:hover {
+	border-color: #FFC2FFFF
+}
+#hand {
+	margin-top: 160px;
+	position: relative;
+	left: 50%;
+	margin-left: -550px;
+
+}
+.inps {
+	position: relative;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	width: 30px;
+}
+
+.qwerty:hover .plus {
+	top : 0px;
+}
+.qwerty:hover .minus {
+	top : 64px;
+}
+/*.plus:hover  {
+	top : -32px;
+}
+.minus:hover  {
+	top : 32px;
+}*/
+/*.inps:hover {
+	height: 100px;
+}*/
+#hand>span {
+		font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	/*width: 30px;*/
+}
+
+#hand>#result {
+	width : 100px;
+}
+.plus,.minus {
+	left: 2px;
+	top : 32px;
+	z-index: 1;
+	width: 32px;
+	height: 32px;
+	/*border: 1px solid grey;*/
+	position: absolute;
+	transition: top .2s ease-in-out;
+
+}
+.plus:hover,.minus:hover {
+background-size : 105%;
+background-repeat: no-repeat;
+background-position: center;
+/*background;*/
+}
+
+.plus:active,.minus:active {
+background-size : 85%;
+background-repeat: no-repeat;
+background-position: center;
+/*background;*/
+}
+
+.qwerty {
+	height: 64px;
+	padding-top : 32px;
+	position: relative;
+	/*top: -50px;*/
+	display: inline-block;
+}
+.plus {
+	background:  url("https://img.icons8.com/nolan/32/000000/plus-math.png");
+	/*top : -32px;*/
+}
+.minus {
+	background:  url("https://img.icons8.com/nolan/32/000000/minus-math.png");
+	/*top : 32px;*/
+}
+
