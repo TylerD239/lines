@@ -2,7 +2,6 @@
 	padding : 0;
 	margin : 0;
 }
-html {width: 100%; overflow:  hidden; }
 #canvas {
 	width: 100vw;
 	height: 100vh;
@@ -31,20 +30,19 @@ html {width: 100%; overflow:  hidden; }
 	width: 200px;
 	height: 120px;
 	position: absolute;
-	top:64px;
-	right: -5px;
+	top: -1px;
+	right: 64px;
 	border: 1px solid black;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px; 
+	border-bottom-left-radius: 15px; 
 	display: flex;
 	align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .hidden {
-	 /*display: none !important;*/
-	 right: -220px !important;
+	top: -130px !important;
 }
 #mouse {
 	position: relative;
