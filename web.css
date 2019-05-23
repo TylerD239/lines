@@ -1,0 +1,52 @@
+* {
+	padding : 0;
+	margin : 0;
+}
+/*html {width: 100%; overflow:  hidden; }*/
+#canvas {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	/*pointer-events: none;*/
+}
+
+.buttons {
+	position: absolute;
+	top:0px;
+	width: 64px;
+	height: 64px;
+}
+#settings {
+	right: 0px;
+	background: url("https://img.icons8.com/carbon-copy/64/000000/horizontal-settings-mixer.png");
+}
+#menu {
+	left: 0px;
+	background: url("https://img.icons8.com/carbon-copy/64/000000/list.png");
+}
+.buttons:active {
+	top: 1px;
+}
+#set-cont {
+	width: 200px;
+	height: 160px;
+	position: absolute;
+	top: -1px;
+	right: 64px;
+	border: 1px solid black;
+	border-bottom-right-radius: 15px; 
+	border-bottom-left-radius: 15px; 
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: all 0.5s ease-in-out;
+}
+.hidden {
+	top: -170px !important;
+}
+#mouse {
+	position: relative;
+	top: 2px;
+	left: 5px;
+}
