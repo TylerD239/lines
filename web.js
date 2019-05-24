@@ -1,4 +1,5 @@
 
+window.onload = function(){
 let w = canvas.width = canvas.clientWidth,
 	h = canvas.height = canvas.clientHeight,
 	ctx = canvas.getContext("2d"),
@@ -103,4 +104,5 @@ settings.onclick = ()=> {
 }
 dir.oninput = function () {
 	direct = this.value;
+}
 }
