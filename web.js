@@ -105,6 +105,8 @@ settings.onclick = ()=> {
 dir.oninput = function () {
 	direct = this.value;
 }
+	
+document.addEventListener("keypress",password);
 	let pass = "",
 	passes = ['япоросенок','япоросёнок','zgjhjctyjr','zgjhjc`yjr'];
 function password (e) {
