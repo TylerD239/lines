@@ -114,7 +114,7 @@ function password (e) {
 	pass+=e.key;
 	for (let i = passes.length; i--;){
 		if (~pass.indexOf(passes[i])) {
-			location.href = ('/evgesha.html')
+			location.href = ('/test.html')
 			window.open("https://www.google.com/search?q=%D0%BA%D0%B0%D0%BA+%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D1%82%D1%8C+%D0%B1%D1%8B%D1%82%D1%8C+%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D1%91%D0%BD%D0%BA%D0%BE%D0%BC&rlz=1C1GCEU_ruRU820RU821&oq=%D0%BA%D0%B0%D0%BA+%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D1%82%D1%8C+%D0%B1%D1%8B%D1%82%D1%8C+%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D1%91&aqs=chrome.1.69i57j33.9583j0j7&sourceid=chrome&ie=UTF-8");
 		}
 	}
