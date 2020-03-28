@@ -108,7 +108,7 @@ dir.oninput = function () {
 	
 document.addEventListener("keypress",password);
 	let pass = "",
-	passes = ['япоросенок','япоросёнок','zgjhjctyjr','zgjhjc`yjr'];
+	passes = ['япоросенок','япоросёнок','яп','zgjhjctyjr','zgjhjc`yjr'];
 function password (e) {
 	if(e.key == ' ') return
 	pass+=e.key;
